@@ -72,8 +72,8 @@ function image-download-and-write {
     local IMAGE_DOWNLOAD_URL=$(image-get-url ${SOURCE_IMAGE_ID})
 
     echo "Будет выполнено:"
-    echo "скачивание образа с ID: ${SOURCE_IMAGE_ID}"
-    echo "по URL: ${IMAGE_DOWNLOAD_URL}"
+    echo "Скачивание образа с ID: ${SOURCE_IMAGE_ID}"
+    echo "По URL: ${IMAGE_DOWNLOAD_URL}"
     echo "Образ будет записан через linux pipe в диск: ${TARGET_DISK}"
     echo
     echo '! ! ! Проверьте данные ! ! !'
