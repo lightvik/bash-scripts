@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Переменные
-HOST='ove.skiftrade.kz'
+HOST=''
 USERNAME=''
 PASSWORD=''
 DEPENDENCIES=( curl jq xq yq )
